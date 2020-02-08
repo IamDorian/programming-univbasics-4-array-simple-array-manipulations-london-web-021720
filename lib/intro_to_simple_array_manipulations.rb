@@ -5,4 +5,4 @@ end
 
 def using_unshift(array,string)
   first_color = "green"
-  array.unshift()
+  array.unshift(first_color)
