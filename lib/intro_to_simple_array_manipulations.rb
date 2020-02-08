@@ -6,3 +6,4 @@ end
 def using_unshift(array,string)
   first_color = "green"
   array.unshift(first_color)
+end
