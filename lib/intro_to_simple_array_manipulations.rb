@@ -45,5 +45,5 @@ def using_delete(array,instructors)
 end
 
 def using_delete_at(array,integer)
-  array.delete_if {|array| array.index == integer}
+  array.delete_if {|array| array == integer.index}
 end
