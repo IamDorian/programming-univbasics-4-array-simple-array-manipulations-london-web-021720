@@ -43,3 +43,7 @@ end
 def using_delete(array,instructors)
   array.delete_if {|array| array == instructors }
 end
+
+def using_delete_at(array,integer)
+  array.delete_at {|array| array == integer}
+end
