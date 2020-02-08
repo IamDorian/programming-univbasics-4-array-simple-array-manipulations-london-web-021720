@@ -25,17 +25,7 @@ def shift_with_args(array)
 end
 
 def using_concat(a,b)
-  a = ["abc", "xyz", "dog"] 
-  
-# declaring array 
-b = ["cow", "cat", "dog"] 
-  
-
-  
-# COMBINING TWO ARRAYS 
-puts "combining a and b : #{a.concat(b)}\n\n"
-  
-puts "combining c and b : #{b.concat(c)}\n\n"
-  
-
+a = ["a", "b", "c"]
+b = ["x", "y", "z"]
+a
 end
