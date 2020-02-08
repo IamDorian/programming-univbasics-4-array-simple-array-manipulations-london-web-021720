@@ -27,5 +27,5 @@ end
 def using_concat(a,b)
 a = ["a", "b", "c"]
 b = ["x", "y", "z"]
-a
+a.concat(b)
 end
