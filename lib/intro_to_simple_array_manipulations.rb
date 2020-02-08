@@ -41,5 +41,5 @@ def using_flatten(array)
 end
 
 def using_delete(array,instructors)
-  array.delete(instructors == 1)
+  array.delete_if {|x| x == 3 }
 end
