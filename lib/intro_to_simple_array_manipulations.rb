@@ -27,3 +27,5 @@ end
 def using_concat(array,all_my_favs)
 array.concat(all_my_favs)
 end
+
+using_insert(array,new element)
