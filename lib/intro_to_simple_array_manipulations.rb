@@ -41,5 +41,5 @@ def using_flatten(array)
 end
 
 def using_delete(array,instructors)
-  array.delete_if {|instructors| instructors == 1 }
+  array.delete_if {|array| array == instructors }
 end
