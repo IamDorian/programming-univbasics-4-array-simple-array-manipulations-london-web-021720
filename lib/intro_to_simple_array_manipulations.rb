@@ -21,11 +21,13 @@ def using_shift(array)
 end
 
 def shift_with_args(array)
- array.shift(2)
+  array.shift(2)
 end
 
 def using_concat(array,all_my_favs)
-array.concat(all_my_favs)
+  array.concat(all_my_favs)
 end
 
-using_insert(array,new element)
+def using_insert(array,new element)
+  
+end
