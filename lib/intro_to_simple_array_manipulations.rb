@@ -4,6 +4,6 @@ def using_push(array,string)
 end
 
 def using_unshift(array,string)
-  first_color = "green"
-  array.unshift(first_color)
+  new_neighborhood = "Staten Island"
+  array.unshift(new_neighborhood)
 end
