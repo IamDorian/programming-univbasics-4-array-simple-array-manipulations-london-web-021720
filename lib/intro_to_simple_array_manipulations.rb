@@ -1,3 +1,4 @@
 def using_push(array,string)
-  array.push("string")
+  updated_array.last 
+  next_color = "violet"
 end
